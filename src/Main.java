@@ -15,7 +15,7 @@ public class Main {
         } else {
             if (clientOS == 0) ;
             {
-                System.out.println("Установите версию приложения для iOS по ссылке");
+                System.out.println("Установите версию приложения для iOS по ссылке/");
             }
         }
     }
