@@ -21,7 +21,7 @@ public class Main {
     }
 
     public static void task2() {
-        System.out.println("Задача 2");
+        System.out.println("Задача 2.");
 
         int incVersion = 1;
         int incYear = 2014;
