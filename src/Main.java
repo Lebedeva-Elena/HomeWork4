@@ -88,7 +88,7 @@ public class Main {
         } else if (clientDistance > 60 && clientDistance <= 100) {
             System.out.println("Потребуется дней: " + (time + 2));
         } else if (clientDistance < maxDistance) ;
-        System.out.println("Доставка не осуществляется");
+        System.out.println("Доставка не осуществляется.");
     }
 
     public static void task5() {
