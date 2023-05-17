@@ -66,7 +66,7 @@ public class Main {
                 System.out.println(year + " год является  высокосным");
             }
         } else {
-            System.out.println(year + " год является не высокосным");
+            System.out.println(year + " год является не высокосным.");
         }
     }
 
