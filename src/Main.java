@@ -115,7 +115,7 @@ public class Main {
             case 11:
                 System.out.println("Месяц " + monthNumber + " принадлежит сезону ОСЕНЬ");
             default:
-                System.out.println("Неверный номер месяца");
+                System.out.println("Неверный номер месяца.");
         }
     }
 }
