@@ -49,7 +49,7 @@ public class Main {
     }
 
     public static void task3() {
-        System.out.println("Задача 3");
+        System.out.println("Задача 3.");
         int year = 5 ;
 
         int firstYear = 1;
