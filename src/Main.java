@@ -50,7 +50,7 @@ public class Main {
 
     public static void task3() {
         System.out.println("Задача 3.");
-        int year = 5 ;
+        int year = 5;
 
         int firstYear = 1;
         int highYear = firstYear + 3;
@@ -60,8 +60,8 @@ public class Main {
         int year2 = year % oneHundreadYear;
         int year3 = year % highFourHundredYear;
 
-        if (year1 == 0 && year2 != 0 ||year3 == 0) {
-                System.out.println(year + " год является  высокосным");
+        if (year1 == 0 && year2 != 0 || year3 == 0) {
+            System.out.println(year + " год является  высокосным");
         } else {
             System.out.println(year + " год является не высокосным.");
         }
@@ -84,39 +84,41 @@ public class Main {
             System.out.println("Потребуется дней: " + (time + 1));
         } else if (clientDistance > 60 && clientDistance <= 100) {
             System.out.println("Потребуется дней: " + (time + 2));
-        } else if (clientDistance < maxDistance) ;
-        System.out.println("Доставка не осуществляется.");
-    }
-
-    public static void task5() {
-        System.out.println("Задача 5");
-        int monthNumber = 13;
-        switch (monthNumber) {
-            case 1:
-            case 2:
-            case 12:
-                System.out.println("Месяц " + monthNumber + " принадлежит сезону ЗИМА");
-                break;
-            case 3:
-            case 4:
-            case 5:
-                System.out.println("Месяц " + monthNumber + " принадлежит сезону ВЕСНА");
-                break;
-            case 6:
-            case 7:
-            case 8:
-                System.out.println("Месяц " + monthNumber + " принадлежит сезону ЛЕТО");
-                break;
-            case 9:
-            case 10:
-            case 11:
-                System.out.println("Месяц " + monthNumber + " принадлежит сезону ОСЕНЬ");
-                break;
-            default:
-                System.out.println("Неверный номер месяца.");
+        } else if (clientDistance > maxDistance) {
+            System.out.println("Доставка не осуществляется.");
         }
     }
-}
+
+public static void task5() {
+            System.out.println("Задача 5");
+            int monthNumber = 13;
+            switch (monthNumber) {
+                case 1:
+                case 2:
+                case 12:
+                    System.out.println("Месяц " + monthNumber + " принадлежит сезону ЗИМА");
+                    break;
+                case 3:
+                case 4:
+                case 5:
+                    System.out.println("Месяц " + monthNumber + " принадлежит сезону ВЕСНА");
+                    break;
+                case 6:
+                case 7:
+                case 8:
+                    System.out.println("Месяц " + monthNumber + " принадлежит сезону ЛЕТО");
+                    break;
+                case 9:
+                case 10:
+                case 11:
+                    System.out.println("Месяц " + monthNumber + " принадлежит сезону ОСЕНЬ");
+                    break;
+                default:
+                    System.out.println("Неверный номер месяца.");
+            }
+        }
+    }
+
 
 
 
