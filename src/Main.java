@@ -12,8 +12,7 @@ public class Main {
         int clientOS = 0;
         if (clientOS == 1) {
             System.out.println("Установите версию приложения для Android по ссылке");
-        } else if (clientOS == 0) ;
-        {
+        } else if (clientOS == 0) {
             System.out.println("Установите версию приложения для iOS по ссылке");
         }
 
@@ -51,20 +50,18 @@ public class Main {
 
     public static void task3() {
         System.out.println("Задача 3");
-        int year = 2025;
+        int year = 5 ;
 
         int firstYear = 1;
         int highYear = firstYear + 3;
         int highFourHundredYear = highYear * 100;
         int oneHundreadYear = 100;
         int year1 = year % highYear;
-        int yaer2 = year % oneHundreadYear;
-        int yaer3 = year % highFourHundredYear;
+        int year2 = year % oneHundreadYear;
+        int year3 = year % highFourHundredYear;
 
-        if (year1 == 0 && yaer2 != 0) {
-            if (yaer3 == 0) {
+        if (year1 == 0 && year2 != 0 ||year3 == 0) {
                 System.out.println(year + " год является  высокосным");
-            }
         } else {
             System.out.println(year + " год является не высокосным.");
         }
@@ -114,6 +111,7 @@ public class Main {
             case 10:
             case 11:
                 System.out.println("Месяц " + monthNumber + " принадлежит сезону ОСЕНЬ");
+                break;
             default:
                 System.out.println("Неверный номер месяца.");
         }
